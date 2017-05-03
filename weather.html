@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Weather Report
+</title>
+</head>
+<body>
+<style type="text/css">
+	body {background-image: url(Weather.jpg);
+	background-repeat: no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+	</style>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<center><p><label><font size="6" face="Comic sans MS"><b>ENTER PLACE</b></font></label></p>
+<br>
+<input type="text" name ="City name" id ="cityname" placeholder="Place" size="50" required/><br>
+<br>
+<p>
+<button type="submit" name="submit" value="submit" onclick="loading()">search</button>
+
+	</p><center>
+	<p id="error" style="color: red"></center></p>
+	<br>
+	<br>
+	<br>
+	<table border="3" id="compTable" style="display: none" >
+	<tr>
+	<td id="name" bgcolor="white"></td>
+	</tr>
+	<tr>
+	<td id="country" bgcolor="white"></td>
+	</tr>
+	<tr>
+	<td id="temp" bgcolor="white"></td>
+	</tr>
+	<tr>
+	<td id="mintemp" bgcolor="white"></td>
+	</tr>
+	<tr>
+	<td id="maxtemp" bgcolor="white"></td>
+	</tr>
+	<tr>
+	<td id="pressure" bgcolor="white"></td>
+	</tr>
+	<tr>
+	<td id="humidity" bgcolor="white"></td>
+	</tr>
+	
+	
+	</table>
+	</center>
+	
+	
+<script type="text/javascript" src="weather2.js">
+</script>
+	
+	</body>
+</html>
